@@ -1,0 +1,792 @@
+@media (max-width: 1199px) {
+	/* -----helper_classes------*/
+	.primary_button {
+		padding: 20px 20px;
+		font-size: 16px;
+	}
+
+	.btn-default.secondary_button {
+		padding: 20px 40px;
+		font-size: 16px;
+		margin-left: 40px;
+	}
+
+	/* -----banner_section------*/
+	.banner_container {
+		margin-top: 40px;
+	}
+
+	/* --------about_me_section----- */
+	.about_section .experience_container {
+		height: 200px;
+		width: 200px;
+		bottom: 0;
+		transform: translate(-20%, 40%);
+	}
+
+	.experience_container p {
+		font-size: 20px;
+	}
+
+	.box1::before {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 30px;
+		top: -30px;
+		left: 0px;
+	}
+	.box1::after {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 30px;
+		top: -30px;
+		left: 45px;
+	}
+	.box2::before {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 30px;
+		top: -30px;
+		left: 90px;
+	}
+	.box2::after {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 30px;
+		top: -30px;
+		left: 135px;
+	}
+
+	/* ----------- our_service_section ---------- */
+
+	.icon_block {
+		width: 50px;
+		height: 50px;
+		background-color: #333647;
+		border-radius: 50%;
+		vertical-align: middle;
+		margin: 0 10px;
+	}
+
+	.icon_block i {
+		font-size: 25px;
+		line-height: 50px;
+	}
+
+	.service_block {
+		font-size: 15px;
+	}
+
+	.arrow_block {
+		width: 10%;
+		margin-left: -20px;
+		vertical-align: middle;
+	}
+
+	.arrow_block i {
+		color: #f87c58;
+		font-size: 25px;
+	}
+
+	/* --------------choose_me_section--------- */
+
+	.choose_me_section .choose_me_section_para {
+		font-size: 15px;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	.achivment_count {
+		font-size: 50px;
+	}
+
+	.achivment_detail {
+		font-size: 20px;
+	}
+
+	.small_font {
+		font-size: 20px;
+	}
+
+	.achievement_box1 {
+		margin-top: 10px;
+	}
+
+	.achievement_box2 {
+		margin-top: 30px;
+	}
+
+	/* --------------our_portfolio_section--------- */
+
+	.overlay {
+		padding: 0 10px;
+	}
+
+	.text_container {
+		transform: translateY(-50%);
+	}
+
+	.text_container h3 {
+		font-size: 18px;
+	}
+
+	.text_container h6 {
+		font-size: 13px;
+	}
+
+	.text_container_para {
+		font-size: 14px;
+	}
+	
+	.achievement_box{
+		height: 110px;
+	}
+	.small_font{
+		font-size: 20px;
+	}
+
+	/*------- footer section -------*/
+
+	.follow_me h1 {
+		font-size: 25px;
+		margin-bottom: 30px;
+	}
+
+	.icon_container {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 991px) {
+	/* -----helper_classes------*/
+
+	.primary_button {
+		padding: 20px 30px;
+		font-size: 16px;
+	}
+
+	.btn-default.secondary_button {
+		padding: 20px 40px;
+		font-size: 16px;
+		margin-left: 50px;
+	}
+
+	/*-------navbar section-------*/
+
+	.navbar_container ul {
+		margin-top: 40px;
+	}
+
+	.navbar_container .navbar-nav li {
+		font-size: 16px;
+	}
+
+	.navbar_container .navbar-nav > li > a {
+		line-height: 10px;
+		padding: 20px 5px;
+	}
+
+	.hire_me_button {
+		padding: 5px 10px;
+		margin-top: 10px;
+		font-size: 16px;
+	}
+
+	/* ----------banner section--------- */
+
+	.banner_container {
+		margin-top: 20px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+
+	.banner_content h1 {
+		font-size: 50px;
+	}
+
+	.hello_text {
+		display: inline-block;
+		font-size: 18px;
+	}
+
+	.about_text {
+		font-size: 18px;
+	}
+
+	.banner_content img {
+		margin: auto;
+	}
+
+	/* ---------about section------------ */
+
+	.about_section .experience_container {
+		height: 200px;
+		width: 200px;
+		bottom: 0;
+		left: 2%;
+		transform: translate(0%, 0%);
+	}
+
+	.experience_container p {
+		font-size: 20px;
+	}
+
+	.box1::before {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 30px;
+		top: -30px;
+		left: 0px;
+	}
+	.box1::after {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 30px;
+		top: -30px;
+		left: 45px;
+	}
+	.box2::before {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 30px;
+		top: -30px;
+		left: 90px;
+	}
+	.box2::after {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 30px;
+		top: -30px;
+		left: 135px;
+	}
+
+	/* ---------.choose_me section--------- */
+
+	.choose_me_section {
+		text-align: center;
+	}
+
+	.choose_me_section img {
+		margin: auto;
+		margin-bottom: 30px;
+	}
+
+	/*---------- portfolio section---------- */
+
+	.portfolio_section .image_container {
+		z-index: 1;
+	}
+
+	.col-sm-6 {
+		z-index: 1;
+	}
+
+	.achievement_box{
+		height: 110px;
+	}
+	.small_font{
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	/*-------navbar section-------*/
+
+	.navbar_container .navbar-nav {
+		margin-top: 50px;
+	}
+
+	.navbar_container .navbar-nav li {
+		font-size: 14px;
+	}
+
+	.navbar_container .navbar-nav > li > a {
+		text-align: left;
+		margin-left: 30px;
+	}
+
+	.hire_me_button {
+		padding: 5px 10px;
+		margin-top: 10px;
+		margin-left: 30px;
+	}
+
+	/* ----------banner section--------- */
+
+	.banner_container {
+		margin-top: 20px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+
+	.banner_content h1 {
+		font-size: 50px;
+	}
+
+	.hello_text {
+		display: inline-block;
+		font-size: 18px;
+	}
+
+	.about_text {
+		font-size: 18px;
+	}
+
+	.banner_content img {
+		margin: auto;
+	}
+
+	/* ---------about section------------ */
+
+	.about_section .experience_container {
+		height: 200px;
+		width: 200px;
+		bottom: 0;
+		left: 2%;
+		transform: translate(0%, 0%);
+	}
+
+	.experience_container p {
+		font-size: 20px;
+	}
+
+	.box1::before {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 30px;
+		top: -30px;
+		left: 0px;
+	}
+	.box1::after {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 30px;
+		top: -30px;
+		left: 45px;
+	}
+	.box2::before {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 30px;
+		top: -30px;
+		left: 90px;
+	}
+	.box2::after {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 30px;
+		top: -30px;
+		left: 135px;
+	}
+
+	.service_block {
+		width: 75%;
+	}
+
+	/* ---------.choose_me section--------- */
+
+	.choose_me_section {
+		text-align: center;
+	}
+
+	.choose_me_section img {
+		margin: auto;
+		margin-bottom: 30px;
+	}
+
+	/*---------- portfolio section---------- */
+
+	.portfolio_section .image_container {
+		z-index: 1;
+	}
+	.achievement_box{
+		height: 100px;
+	}
+	.small_font{
+		font-size: 18px;
+	}
+
+
+	/* -------------------------------- */
+
+	.image_container img {
+		margin: auto;
+		width: 100%;
+	}
+
+	.col-sm-6 {
+		z-index: 1;
+	}
+}
+
+@media (max-width: 575px) {
+	/* -----helper_classes------*/
+
+	.primary_button {
+		padding: 15px 20px;
+		font-size: 14px;
+	}
+
+	.btn-default.secondary_button {
+		padding: 15px 30px;
+		font-size: 14px;
+		margin-left: 30px;
+	}
+
+	/* --------navbar section--------- */
+	.navbar_container ul {
+		margin-top: 30px;
+	}
+
+	.navbar_container .navbar-nav li {
+		font-size: 14px;
+	}
+
+	.navbar_container .navbar-nav > li > a {
+		line-height: 0px;
+		padding: 10px 5px;
+	}
+
+	.hire_me_button {
+		font-size: 14px;
+	}
+
+	/* ----------banner section--------- */
+
+	.banner_content h1 {
+		font-size: 30px;
+	}
+
+	.hello_text {
+		display: inline-block;
+		font-size: 14px;
+	}
+
+	.about_text {
+		font-size: 14px;
+	}
+
+	/* ---------about section------------ */
+
+	.about_section .experience_container {
+		height: 150px;
+		width: 180px;
+		bottom: 0;
+		left: 2%;
+		transform: translate(0%, 0%);
+		padding: 20px;
+	}
+
+	.experience_year {
+		font-size: 35px;
+	}
+
+	.experience_container p {
+		font-size: 15px;
+	}
+
+	.box1::before {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 25px;
+		top: -20px;
+		left: 0px;
+	}
+	.box1::after {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 25px;
+		top: -20px;
+		left: 45px;
+	}
+	.box2::before {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 25px;
+		top: -20px;
+		left: 90px;
+	}
+	.box2::after {
+		content: " ";
+		position: absolute;
+		background-color: white;
+		width: 15px;
+		height: 25px;
+		top: -20px;
+		left: 130px;
+	}
+
+	.about_story h1 {
+		font-size: 25px;
+	}
+
+	.about_story .about_para {
+		font-size: 12px;
+	}
+
+	.progress_bar_container p {
+		font-size: 14px;
+	}
+
+	/* ----------service section ----------- */
+
+	.service_block {
+		width: 65%;
+	}
+
+	.our_service_heading {
+		font-size: 25px;
+		margin-top: 50px;
+	}
+
+	.our_service_para {
+		font-size: 14px;
+		margin: 30px 0;
+	}
+
+	.service_box {
+		padding: 15px 0;
+	}
+
+	.icon_block i {
+		color: white;
+		font-size: 20px;
+		line-height: 50px;
+	}
+
+	/* --------------choose_me_section style--------- */
+
+	.choose_me_section {
+		padding: 50px 0;
+	}
+
+	.choose_me_section h1 {
+		font-size: 25px;
+	}
+
+	.choose_me_section .choose_me_section_para {
+		font-size: 12px;
+	}
+
+	.achivment_count {
+		font-size: 40px;
+	}
+
+	.achivment_detail {
+		font-size: 25px;
+	}
+
+	.small_font {
+		font-size: 23px;
+	}
+
+	/* --------------portfolio_section style---------- */
+
+	.portfolio_section {
+		padding: 50px 0;
+	}
+
+	.portfolio_section_main_heading {
+		font-size: 25px;
+	}
+
+	.portfolio_section_main_para {
+		font-size: 12px;
+	}
+
+	.text_container {
+		padding: 30px;
+	}
+
+	.text_container h3 {
+		font-size: 20px;
+	}
+
+	.text_container h6 {
+		font-size: 13px;
+	}
+
+	.text_container_para {
+		font-size: 14px;
+	}
+	.achievement_box{
+		height: 100px;
+	}
+	.small_font{
+		font-size: 16px;
+	}
+
+	.view_all_button {
+		margin-top: 30px;
+	}
+
+	/*-------------- testimonials_section---------- */
+
+	.testimonials_section {
+		padding: 50px 0;
+	}
+
+	.testimonials_section_main_heading {
+		font-size: 25px;
+	}
+
+	.testimonials_section_main_para {
+		font-size: 12px;
+	}
+
+	.testimonials_img img {
+		margin: auto;
+		width: 150px;
+		height: 150px;
+		border: 8px solid #f87c58;
+	}
+
+	.left_quote {
+		margin: auto;
+		margin-top: 30px;
+	}
+
+	.testimonials_name {
+		font-size: 25px;
+	}
+
+	.testimonials_position {
+		font-size: 13px;
+	}
+
+	.testimonials_para {
+		font-size: 13px;
+	}
+
+	/* ----------blog_section------------*/
+
+	.blog_section {
+		padding: 50px 0;
+	}
+
+	.blog_section_main_heading {
+		font-size: 25px;
+	}
+
+	.blog_section_main_para {
+		font-size: 12px;
+		margin: 30px 0 50px 0;
+	}
+
+	.thumbnail_section_date {
+		font-size: 14px;
+	}
+
+	.thumbnail_section_main_heading {
+		font-size: 20px;
+	}
+	/* -------------footer---------- */
+
+	.footer_section {
+		padding: 50px 0 0 0;
+	}
+
+	.information_container h1 {
+		font-size: 18px;
+	}
+
+	.information_container h3 {
+		font-size: 14px;
+	}
+
+	.information_icon {
+		font-size: 20px;
+		line-height: 60px;
+	}
+	.information_container .fas,
+	.information_container .far {
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+	}
+
+	.information_text {
+		margin-top: 0px;
+		margin-left: 5px;
+	}
+
+	.information_text_heading {
+		font-size: 16px;
+	}
+
+	.information_text_info {
+		font-size: 18px;
+	}
+
+	.follow_me {
+		margin: 50px 0;
+	}
+
+	.follow_me h1 {
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+
+	.icon_container {
+		font-size: 40px;
+	}
+
+	.icon_container i {
+		margin-right: 20px;
+	}
+
+	.contact_us_form_header {
+		font-size: 25px;
+		margin-bottom: 30px;
+	}
+
+	.contact_us_form input,
+	.contact_us_form textarea {
+		padding: 25px 20px;
+		margin-bottom: 20px;
+	}
+
+	.contact_us_form select {
+		padding:15px 20px;
+	}
+
+	.contact_us_form input::placeholder,
+	.contact_us_form select::placeholder,
+	.contact_us_form textarea::placeholder {
+		font-size: 14px;
+	}
+
+	.copy {
+		font-size: 14px;
+	}
+}
